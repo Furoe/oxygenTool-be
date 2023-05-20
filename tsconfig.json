@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "target": "ES6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "types": [],
+    "paths": {
+      "@/*": ["src/*"],
+      "@t/*": ["types/*"],
+      "@db/*": ["db/*"]
+    }
+  },
+  "include": ["src/**/*", "types/**/*", "db/**/*"]
+}
