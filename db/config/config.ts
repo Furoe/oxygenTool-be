@@ -5,3 +5,12 @@ export const DB_CONFIG = {
   password: "tryHardOxygen.",
   database: "oxygenTool",
 };
+
+export const MINIO_CONFIG = {
+  filePath: 'D:\\个人相关\\project\\files',
+  endPoint: '192.168.1.27',
+  port: 9000,
+  useSSL: false,
+  accessKey: 'admin',
+  secretKey: 'admin123456'
+}
